@@ -14,7 +14,7 @@ public interface IWeatherIO {
 	// 2. a subject header is to be written for each ClimateAnalyzer method call 
 	 
 	 public void writeDataToFile(String filename, String topic, ArrayList<ITemperature> theWeatherList) throws IOException; 
-	// 1. file name should be called ìtaskXX_climate_info.csvî where XX will be replaced by the task id: A1, A2, etc 
+	// 1. file name should be called ‚ÄútaskXX_climate_info.csv‚Äù where XX will be replaced by the task id: A1, A2, etc 
 	// 2. use this method to store the temperature info (for each Climate Analyzer task)   
 	//     a) one row for each temperature data object (i.e. all fields in one row (each comma delimited)  ) 
 	//     b) similar to the original input data file) 
